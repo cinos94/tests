@@ -13,5 +13,7 @@ namespace tests.Models
         }
 
         public DbSet<Movie> Movie { get; set; }
+
+        public DbSet<Schedule> Schedule { get; set; }
     }
 }
